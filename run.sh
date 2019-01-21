@@ -1,0 +1,1 @@
+g++ -std=c++11 -Wno-deprecated -o log-demo main.cpp TarsLogger.cpp util/tc_logger.cpp util/tc_ex.cpp util/tc_timeprovider.cpp util/tc_thread_rwlock.cpp util/tc_thread_pool.cpp util/tc_thread_mutex.cpp util/tc_thread.cpp util/tc_thread_cond.cpp util/tc_common.cpp  util/tc_file.cpp -I. -lpthread
